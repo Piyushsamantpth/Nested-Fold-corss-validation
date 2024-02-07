@@ -1,8 +1,8 @@
 # Nested-Fold-corss-validation
 This Python function, nested_cv_roc_analysis_DF, is designed to perform nested cross-validation on a given dataset using a specified machine learning model and parameter grid. The function is particularly useful for evaluating model performance in scenarios where hyperparameter tuning is critical and overfitting is a concern. It is tailored for use with datasets provided as Pandas DataFrames, making it highly suitable for data science projects where data manipulation and analysis are primarily conducted using Pandas.
 
-Key Features:
-
+**Key Features:
+**
 Nested Cross-Validation: Utilizes an outer cross-validation loop to assess model performance and an inner loop for hyperparameter tuning via GridSearchCV. This approach provides a more robust evaluation by separating the data used for model training and hyperparameter selection from the data used for performance assessment.
 
 ROC Curve Analysis: For each fold in the outer loop, the function plots Receiver Operating Characteristic (ROC) curves for both the inner loop's average performance and the outer loop's test set performance. This visual representation helps in understanding the model's discriminative ability across different threshold settings.
