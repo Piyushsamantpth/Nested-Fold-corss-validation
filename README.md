@@ -14,4 +14,5 @@ Comprehensive Results: Outputs a Pandas DataFrame summarizing the experiment rep
 
 **Intended Use:** 
 
+
 This function is ideal for researchers and data scientists seeking to rigorously evaluate the performance of classification models, particularly in biomedical research, finance, or any field where model reliability is paramount. By employing nested cross-validation, it addresses the common pitfall of hyperparameter tuning potentially biasing model performance estimates. The function's output provides a detailed account of model efficacy, making it an invaluable tool for scientific studies, model selection, and performance reporting.
