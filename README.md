@@ -12,4 +12,6 @@ Parameter Flexibility: Accepts a variety of inputs including the model, paramete
 Comprehensive Results: Outputs a Pandas DataFrame summarizing the experiment repetition number, the fold number within the outer loop, the best hyperparameters found for each fold, and the AUC scores for both the inner and outer loops. This structured output makes it easy to analyze and compare model performance across different iterations and folds.
 
 
-Intended Use: This function is ideal for researchers and data scientists seeking to rigorously evaluate the performance of classification models, particularly in biomedical research, finance, or any field where model reliability is paramount. By employing nested cross-validation, it addresses the common pitfall of hyperparameter tuning potentially biasing model performance estimates. The function's output provides a detailed account of model efficacy, making it an invaluable tool for scientific studies, model selection, and performance reporting.
+**Intended Use:** 
+
+This function is ideal for researchers and data scientists seeking to rigorously evaluate the performance of classification models, particularly in biomedical research, finance, or any field where model reliability is paramount. By employing nested cross-validation, it addresses the common pitfall of hyperparameter tuning potentially biasing model performance estimates. The function's output provides a detailed account of model efficacy, making it an invaluable tool for scientific studies, model selection, and performance reporting.
